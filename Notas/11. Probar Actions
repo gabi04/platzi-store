@@ -1,0 +1,6 @@
+1. Test actions de redux en src/__test__/actions/actions.test.js
+2. Configuración para que se muestre los mensajes de los test
+   En package.json agregar:
+   "jest": {
+      "verbose": true
+    }

@@ -1,0 +1,8 @@
+1. Creamos el archivo src/utils/getData.js
+
+2. $ npm i jest-fetch-mock --save-dev
+
+3. Para capturar las peticiones y ejecutarlas sin usar el fetch que normalmente se usa dentro del navegador
+   Se pone en el archivo src/__test__/setupTest.js
+
+4. Creamos el archivo src/__test__/utils/getData.js

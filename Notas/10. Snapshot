@@ -1,0 +1,10 @@
+Para un componente como el Footer que no tiene lógica, simplemente es visual.
+
+1. $ npm i react-test-renderer --save-dev
+   Este paquete se instala para poder utilizar los snapshots
+
+2. En src/__test__/components/Footer.test.js test de Snapshot
+
+3. En src/__test__/components/Header.test.js test de Snapshot
+
+4. $  jest --updateSnapshot, si necesitamos hacer un cambio que si pase los test

@@ -1,2 +1,6 @@
 1. https://travis-ci.org/
-2. 
+2. Crear archivo .travis.yml
+4. En travis-ci.org ir a setting, sync account y en el repo elegido ir a settings
+5. Crear un token en github, deploy settings, personal access tokens, con permisos para
+   repo y para admin:repo_hook, read:repo_hook
+6. Se pone el token en las variables de entorno de travis
